@@ -20,12 +20,12 @@ Our Amazon sales data analysis project aims to identify the best-selling product
     - Choropleth map displaying sales magnitude per Indian state (also usable as a filter for region-specific insights);
     - Table of top 10 best-selling sizes for each category.
 ## Functions and techniques
-*Aggregation functions - COUNT(), SUM();
-*CTEs - sales_per_category, qty_per_category;
-*INNER JOIN;
-*TO_CHAR (date, ‘Month’), TO_CHAR(date, ‘Dy’);
-*Window Function - RANK() OVER(ORDER BY *total_in_millions* DESC);
-*Subquery in FROM clause;
+-Aggregation functions - COUNT(), SUM();
+-CTEs - sales_per_category, qty_per_category;
+-INNER JOIN;
+-TO_CHAR (date, ‘Month’), TO_CHAR(date, ‘Dy’);
+-Window Function - RANK() OVER(ORDER BY *total_in_millions* DESC);
+-Subquery in FROM clause;
 ## Results
 The top three best-performing items in sales are sets, kurtas, and western dresses. Sets, the best-performing product, contributed 49.88% to the total sales volume, reinforcing its market leadership in its category—especially sets available in S, M, L, and XL sizes.
 For the main part of the analysis, an interactive dashboard in Tableau was created, accessible via this [link](https://public.tableau.com/views/AmazonSales_17241613013840/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
