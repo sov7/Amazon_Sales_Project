@@ -6,9 +6,9 @@ Datasets used for this project:
 ## Project goals
 Our Amazon sales data analysis project aims to identify the best-selling products in the provided dataset. Through a thorough examination, we seek to uncover which items are generating the most revenue.
 ## Terms and Definitions
-*Set - in this context, it is indicating that the product sold is a bundled offering rather than a single item. To get the clear understanding what the Sets are, use ASIN (Amazon Standard Identification Number);
-*Kurta - a long loose-fitting collarless shirt of a style originating in India;
-*INR ₹ - Indian rupee.
+-Set - in this context, it is indicating that the product sold is a bundled offering rather than a single item. To get the clear understanding what the Sets are, use ASIN (Amazon Standard Identification Number);
+-Kurta - a long loose-fitting collarless shirt of a style originating in India;
+-INR ₹ - Indian rupee.
 ## Project stages
 1. Connected Amazon Sales Database to PgAdmin;
 2. Connected PostgreSQL Database to DBeaver;
